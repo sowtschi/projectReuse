@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "738003907807",
+    "firebase_url": "https://eis1718-ef0c1.firebaseio.com",
+    "project_id": "eis1718-ef0c1",
+    "storage_bucket": "eis1718-ef0c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738003907807:android:210397c2e3d924b5",
+        "android_client_info": {
+          "package_name": "com.th_koeln.steve.klamottenverteiler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738003907807-sp5asem8mtp13r1kce78uti7ki9b2qm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCka4LIge2WRXMZMLpkmkte3Pog5Bma99w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.th_koeln.steve.klamottenverteiler">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDO8RzwH_FL_G51NXJg5_2pPwV5UCXWhVE" />
+
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".UserInterface" />
+        <activity android:name=".Login" />
+        <activity android:name=".RateUser" />
+        <activity android:name=".AddClothing" />
+        <activity android:name=".map_results" />
+        <activity android:name=".ShowOnMap" />
+        <activity android:name=".SearchClothing"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ShowRequest" />
+        <activity android:name=".Chat" />
+        <activity android:name=".ShowClothing" />
+        <activity android:name=".ChooseContext" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".EditClothing" />
+        <activity android:name=".MyClothing"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ShowOutfit"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ClothingOptionsDetail" />
+        <activity android:name=".SearchClothingFilter" />
+        <activity android:name=".TimePlan"/>
+
+        <service android:name=".services.HttpsService"></service>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

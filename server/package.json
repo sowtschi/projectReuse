@@ -1,0 +1,30 @@
+{
+  "name": "klamotten-verteiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micha997/EISWS1718MichelOwtschinnikow.git"
+  },
+  "author": "Steffen Owtschinnikow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micha997/EISWS1718MichelOwtschinnikow/issues"
+  },
+  "homepage": "https://github.com/micha997/EISWS1718MichelOwtschinnikow#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fcm-push": "^1.1.3",
+    "firebase-admin": "^5.7.0",
+ "mongodb": "^2.2.33",
+    "uuid": "^3.1.0"
+  }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="100">>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="66.6"
+        app:srcCompat="@drawable/googleg_standard_color_18"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="25dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtRequestName"
+
+        android:text="TextView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+        <TextView
+            android:id="@+id/txtRequestArt"
+
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="25dp" />
+        <TextView
+            android:id="@+id/txtRequestSize"
+
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="25dp" />
+        <TextView
+            android:id="@+id/txtRequestBrand"
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="25dp" />
+        tools:layout_editor_absoluteY="25dp" />
+        <TextView
+            android:id="@+id/txtRequestStatus"
+            android:text="TextView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="25dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

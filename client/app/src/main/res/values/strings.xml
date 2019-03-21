@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Klamotten Verteiler</string>
+    <string name="title_activity_map_results">Map</string>
+    <string name="DOMAIN">https://192.168.0.59:50262</string>
+</resources>

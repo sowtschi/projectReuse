@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgShowClothingPicture"
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imgShowClothingPicture"
+        android:layout_width="90dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/divider2"
+        android:adjustViewBounds="true"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/textViewSize"
+        android:layout_alignStart="@+id/textViewSize"
+        android:layout_alignTop="@+id/divider2"
+        android:gravity="fill_vertical"
+        android:text="Kleidungsstueck Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/imgShowClothingPicture"
+        android:gravity="fill_vertical"
+        android:text="Groesse"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textViewSize"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/imgShowClothingPicture"
+        android:gravity="fill_vertical"
+        android:text="Entfernung"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>
